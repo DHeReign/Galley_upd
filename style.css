@@ -75,6 +75,31 @@ body {
     width: 100%;
 }
 
+.buttons {
+    position: relative;
+    bottom: 4em;
+    left: 15em;
+    display: inline;
+}
+
+.button {
+    height: 2em;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.like {
+    background-image: url(images/Like.svg);
+}
+
+.save {
+    background-image: url(images/save.svg);
+}
+
 .footer {
     height: 100vh;
     background-image: url(./images/7.png);
