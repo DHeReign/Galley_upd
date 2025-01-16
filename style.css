@@ -69,6 +69,7 @@ body {
 
 .gallery__item {
     max-width: 330px;
+    position: relative;
 }
 
 .image {
@@ -76,28 +77,43 @@ body {
 }
 
 .buttons {
-    position: relative;
-    bottom: 4em;
-    left: 15em;
-    display: inline;
+    position: absolute;
+    right: 27px;
+    /* left: 220px; */
+    bottom: 24px;
+    /* bottom: 48px; */
+    display: flex;
+    gap: 15px;
 }
 
 .button {
-    height: 2em;
-    width: 100%;
     border: none;
     background-color: transparent;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    height: 32px;
+    cursor: pointer;
 }
 
 .like {
-    background-image: url(images/Like.svg);
+    width: 39.11px;
+    background-image: url(images/Like.png);
+}
+
+.like:hover {
+    width: 39.11px;
+    background-image: url(images/like_active.svg);
 }
 
 .save {
+    width: 30px;
     background-image: url(images/save.svg);
+}
+
+.save:hover {
+    width: 30px;
+    background-image: url(images/save_active.svg);
 }
 
 .footer {
